@@ -1,0 +1,152 @@
+body{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+.container{
+    display: flex ;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.137);
+}
+
+.menu-header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    background-color:#ffff;
+    box-shadow:0px 4px 30px -10px rgba(0, 0, 0, 0.137);
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}  
+
+.logo h1{
+font-family: Arial, Helvetica, sans-serif;
+margin:10px 10px;
+}
+
+.menu-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+
+}
+
+.menu-nav ul li{
+    margin: 0 10px;
+    
+}
+
+.menu-nav ul li a{
+    text-decoration: none;
+    color: #585e65;
+}
+
+.menu-nav ul li a:hover{
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.062) ;
+}
+
+.menu-button button{
+    display: flex;
+    background-color: #4572E8;
+    border: 1px solid #4572E8;
+    font-size: 25px;
+    margin: 10px 10px;
+    border-radius: 5px;
+
+}
+
+.menu-button button:hover{
+    background-color:#92a3cc ;
+    border: 1px solid transparent;
+    font-size:26px;
+}
+
+
+.menu-button a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.products{
+    width: 100%;
+    max-width: 1000px ;
+    margin: 50px auto ;
+    border-radius: 3px;
+    box-shadow:1px 1px 2px 2px rgba(0, 0, 0, 0.127);
+    
+}
+
+.products-list{
+display: flex;
+width:  100%;
+max-width: 900px;
+flex-wrap: wrap;
+height: auto;
+list-style: none;
+justify-content: space-between;
+
+}
+
+.products-list li{
+    display: flex;
+    margin: 30px 5px 0 0;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.127);
+    border-radius:5px;
+
+}
+
+.products-list li a{
+    text-decoration: none;
+    color:black;
+}
+
+.products-list h2,h3,p{
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 200px;
+    margin-left: 5px;
+}
+
+.pictures{
+    display: flex;  
+    width: 100%;
+}
+
+
+.pictures img{
+    display: flex;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.products-list p{
+    font-size: 24px;
+    background-color: #4572E8;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+
+
+
+
